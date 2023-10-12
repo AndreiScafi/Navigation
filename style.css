@@ -41,6 +41,25 @@ html {
     height: 1rem;
     background-color: #fff;
     border-radius: 50%;
+    transition: all .5s;
+}
+
+.change .dot-1 {
+    width: .8rem;
+    height: 7rem;
+    border-radius: 1rem;
+    transform: rotate(-45deg) translate(2rem, 2rem);
+}
+
+.change .dot-2 {
+    opacity: 0;
+}
+
+.change .dot-3 {
+    width: .8rem;
+    height: 7rem;
+    border-radius: 1rem;
+    transform: rotate(45deg) translate(-2rem, 2rem);
 }
 
 .nav-menu {
